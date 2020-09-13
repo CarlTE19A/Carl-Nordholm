@@ -23,8 +23,6 @@
             <p>I värsta fall får du refresha sidan för att få fram nya</p>
             
         </section>
-    <article id="demo"><p></p></article>
-    <article id="demo2"><p></p></article>
     <section id="Restauranger">
         <article id="a">
                 <h3>Burger King</h3>
@@ -307,9 +305,6 @@
         var x = Math.floor(Math.random() * 30) + 1;
         var y = Math.floor(Math.random() * 30) + 1;
         while(y == x){y = Math.floor(Math.random() * 30) + 1;}
-
-        document.getElementById("demo").innerHTML = x;
-        document.getElementById("demo2").innerHTML = y;
         document.getElementById("a").style.display = "none";
         document.getElementById("b").style.display = "none";
         document.getElementById("c").style.display = "none";
