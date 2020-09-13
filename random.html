@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTI Matlista - Randomizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        
+        <h1><a href="index.html">NTI Matlista</a></h1>
+        <nav>
+            <a href="odenplan.html">Nära Odenplan</a> | <a href="pizza.html">Pizza</a> | <a href="kebab.html">Kebab</a>
+             | <a href="subway.html">Subway</a> | <a href="burgare.html">Burgare  | <a href="random.html">Randomizer</a>
+        </nav>
+        
+    </header>
+    <main>
+        <section id="intro">
+            <p>Vart du borde äta just idag</p>
+        </section>
+    <article><p id="demo"></p></article>
+    <article><p id="demo2"></p></article>
+    
+    <script>
+        var x = Math.floor(Math.random() * 10) + 1;
+        var y = Math.floor(Math.random() * 10) + 1;
+        while(y == x){y = Math.floor(Math.random() * 10) + 1;}
+        document.getElementById("demo").innerHTML = x;
+        document.getElementById("demo2").innerHTML = y;
+    </script>
+    </main>
+    
+</body>
+</html>
