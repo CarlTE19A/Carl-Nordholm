@@ -3,6 +3,7 @@ body{
     margin: 0px;
     background-color: rgb(50,50,50);
     font-family: Verdana, Tahoma, sans-serif; 
+    color: white;
 }
 
 header{
@@ -14,8 +15,6 @@ header{
     border-bottom-style: solid;
     border-image: url(bilder/header_background.jpg);
     padding-right: 40px;
-    
-
 }
 
 a{
@@ -61,7 +60,7 @@ footer a{
     color: red;
 }
 
-.intro{
+#intro{
     color: white;
     text-decoration: none;
     padding: 10px;
@@ -82,11 +81,11 @@ article{
 }
 @media (min-width: 600px)
 {
-    .restauranger 
+    #restauranger 
     {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     article
@@ -97,12 +96,11 @@ article{
 }
 @media (min-width: 960px)
 {
-    .restauranger 
+    #restauranger 
     {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-
     }
 
     article
@@ -113,12 +111,11 @@ article{
 }
 @media (min-width: 1200px)
 {
-    .restauranger 
+    #restauranger 
     {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-
     }
 
     article
