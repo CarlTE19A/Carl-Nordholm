@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NTI Matlista - Randomizer</title>
+    <title>NTI Food - Randomizer</title>
     <meta name = "description" content = "En hemsida för alla matställen tilljängliga för elev på NTI Odenplan">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         
-        <h1><a href="index.html">NTI Matlista</a></h1>
+        <h1><a href="/">NTI Food</a></h1>
         <nav>
             <a href="odenplan.html">Nära Odenplan</a> | <a href="pizza.html">Pizza</a> | <a href="kebab.html">Kebab</a>
              | <a href="subway.html">Subway</a> | <a href="burgare.html">Burgare  | <a href="random.html">Randomizer</a>
@@ -18,12 +18,12 @@
         
     </header>
     <main>
-        <section id="intro">
-            <p>Sidan tar fram 2 resturanger, du borde äta på en av dom idag</p>
-            <p>I värsta fall får du refresha sidan för att få fram nya</p>
+        <section class="intro">
+            <p>Sidan tar fram 2 restauranger där du kan äta idag</p>
+            <p>Refresha sidan för 2 nya</p>
             
         </section>
-    <section id="Restauranger">
+    <section class="restauranger">
         <article id="a">
                 <h3>Burger King</h3>
                 <p>Burger King serverar Burgare och Chicken Nuggets i snabbmatsmiljö</p>
@@ -302,9 +302,9 @@
     </section>
     
     <script>
-        var x = Math.floor(Math.random() * 30) + 1;
-        var y = Math.floor(Math.random() * 30) + 1;
-        while(y == x){y = Math.floor(Math.random() * 30) + 1;}
+        var x = Math.floor(Math.random() * 29) + 1;
+        var y = Math.floor(Math.random() * 29) + 1;
+        while(y == x){y = Math.floor(Math.random() * 29) + 1;}
         document.getElementById("a").style.display = "none";
         document.getElementById("b").style.display = "none";
         document.getElementById("c").style.display = "none";
@@ -421,9 +421,6 @@
             document.getElementById("ab").style.display = "block";  
         }
         if( x == 29 || y == 29){
-            document.getElementById("ac").style.display = "block";  
-        }
-        if( x == 30 || y == 30){
             document.getElementById("ad").style.display = "block";  
         }
     </script>
@@ -433,7 +430,7 @@
     <footer>
         <p>
             Kontakta
-        <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfmrDTcdrnPvPvmVPpWbtSGPMPTsWsdBWHLdnpWHVQNthzpFKDXMkVjvRQsHzkmcLrsnjB"> carl.nordholm@elev.ga.ntig.se</a>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfmrDTcdrnPvPvmVPpWbtSGPMPTsWsdBWHLdnpWHVQNthzpFKDXMkVjvRQsHzkmcLrsnjB" target="blank"> carl.nordholm@elev.ga.ntig.se</a>
         för förändringar eller tilläggsideer
     </p>
     <p>
