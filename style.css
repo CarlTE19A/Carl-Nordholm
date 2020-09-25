@@ -3,6 +3,7 @@ body{
     margin: 0px;
     background-color: rgb(50,50,50);
     font-family: Verdana, Tahoma, sans-serif; 
+    color: white;
 }
 
 header{
@@ -14,8 +15,6 @@ header{
     border-bottom-style: solid;
     border-image: url(bilder/header_background.jpg);
     padding-right: 40px;
-    
-
 }
 
 a{
@@ -71,16 +70,6 @@ footer a{
     font-family: 'Courier New', Courier, monospace;
 }
 
-#info{
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    padding-right: 10px ;
-    margin: 15px;
-    max-width: 600px;
-    font-family: 'Courier New', Courier, monospace;
-}
-
 article{
     background-color: rgb(60,60,60);
     color: white;
@@ -96,7 +85,7 @@ article{
     {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     article
@@ -112,7 +101,6 @@ article{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-
     }
 
     article
@@ -128,7 +116,6 @@ article{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-
     }
 
     article
