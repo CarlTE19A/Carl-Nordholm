@@ -22,12 +22,6 @@ a{
   text-decoration: none;  
 }
 
-
-
-article p{
-    font-family: 'Courier New', Courier, monospace;
-    max-width: 90%;
-}
 article a{
     text-decoration: underline;
 }
@@ -78,10 +72,13 @@ article{
     padding-right: 10px ;
     padding-left: 30px;
     margin: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 90%;
 }
 @media (min-width: 600px)
 {
-    #restauranger, #kebab, #odenplan, #pizza, #burgare, #subway
+
+    .flex
     {
         display: flex;
         flex-wrap: wrap;
@@ -96,7 +93,7 @@ article{
 }
 @media (min-width: 960px)
 {
-    #restauranger, #kebab, #odenplan, #pizza, #burgare, #subway
+    .flex
     {
         display: flex;
         flex-wrap: wrap;
@@ -111,7 +108,7 @@ article{
 }
 @media (min-width: 1200px)
 {
-    #restauranger, #kebab, #odenplan, #pizza, #burgare, #subway
+    .flex
     {
         display: flex;
         flex-wrap: wrap;
@@ -135,6 +132,10 @@ article{
 .line
 {
     background-color: white;
-    text-
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 1px;
+    font-size: 0;
+    
     
 }
