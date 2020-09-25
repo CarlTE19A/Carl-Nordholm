@@ -9,11 +9,11 @@ body{
 header{
     padding-top: 20px;
     padding-left: 40px;
-    background-image: url(bilder/header_background.jpg);
+    background-image: url(/bilder/header_background.jpg);
     color: white;
     border-bottom-width: 10px;
     border-bottom-style: solid;
-    border-image: url(bilder/header_background.jpg);
+    border-image: url(/bilder/header_background.jpg);
     padding-right: 40px;
 }
 
@@ -81,7 +81,7 @@ article{
 }
 @media (min-width: 600px)
 {
-    #restauranger 
+    #restauranger, #kebab, #odenplan, #pizza, #burgare, #subway
     {
         display: flex;
         flex-wrap: wrap;
@@ -91,12 +91,12 @@ article{
     article
     {
         flex-basis: 30%;
-        flex-grow: auto;
+        flex-grow: 1;
     }
 }
 @media (min-width: 960px)
 {
-    #restauranger 
+    #restauranger, #kebab, #odenplan, #pizza, #burgare, #subway
     {
         display: flex;
         flex-wrap: wrap;
@@ -106,12 +106,12 @@ article{
     article
     {
         flex-basis: 25%;
-        flex-grow: auto;
+        flex-grow: 1;
     }
 }
 @media (min-width: 1200px)
 {
-    #restauranger 
+    #restauranger, #kebab, #odenplan, #pizza, #burgare, #subway
     {
         display: flex;
         flex-wrap: wrap;
@@ -121,6 +121,20 @@ article{
     article
     {
         flex-basis: 20%;
-        flex-grow: auto;
+        flex-grow: 1;
     }
+}
+
+.und
+{
+    text-align: center;
+    padding: 12px;
+    color: white;
+    
+}
+.line
+{
+    background-color: white;
+    text-
+    
 }
