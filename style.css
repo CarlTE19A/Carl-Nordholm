@@ -90,14 +90,14 @@ article .arttext
     grid-row: 1;
     grid-column: 1;
 }
-article img:not(.mapmarker){
+article .grid img:not(.mapmarker){
     color: rgb(50,50,50);
     border: 5px solid;
     text-align: right;
     border-radius: 6%;
     width: 200px;
     grid-row: 1;
-    grid-column: 100000000;
+    grid-column: 10;
     align-self: stretch;
 }
 
@@ -108,7 +108,7 @@ article p{
 
 @media (max-width: 400px)
 {
-    article img:not(.mapmarker){
+    article .grid img:not(.mapmarker){
         width: 100px;
     }
 }
@@ -174,6 +174,11 @@ input[type=text], select, textarea {
     resize: vertical;
   }
 
-input[type=submit]:hover input[type=image]:hover {
-    background-color: #45a049;
+button[type=submit] {
+    background-color: transparent;
+    padding: 5px;
+  }
+
+  button[type=submit]:hover {
+    background-color: green;
   }
